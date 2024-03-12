@@ -19,45 +19,11 @@ theme:
     - content.code.annotate
     - navigation.top
     - content.action.edit
-  palette:
-    - scheme: elastic-engineering-light
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
 
-extra_css:
-  - stylesheets/extra.css
-
-# nav:
-#   - Home: index.md
-# - General:
-#   - Contributing: contributing/index.md
-# - Architecture Frameworks: arch-frameworks/index.md
-# - AWS Solutions: aws-solutions/index.md
-# - Azure Solutions: azure-solutions/index.md
-# - GCP Solutions: gcp-solutions/index.md
-# - CI/CD Solutions: cicd-solutions/index.md
-# - Security Solutions: sec-solutions/index.md
-# - Programming Languages: programming-languages/index.md
-# - Infrastructure As Code: iac/index.md
-# - Kubernetes: kubernetes/index.md
-# - Observability: observability/index.md
-# - Newsletters & Podcasts: newsletters-podcasts/index.md
-# - Training & Courses: training-courses/index.md
-# - Certifcations: certifications/index.md
-# - Books: books/index.md
-# - Communities: communities/index.md
-# - Conferences: conferences/index.md
-# - Tech Talks: tech-talks/index.md
-# - Internal Websites: internal-www/index.md
-# - External Websites: external-www/index.md
 
 markdown_extensions:
   - admonition
